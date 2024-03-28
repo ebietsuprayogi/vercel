@@ -100,7 +100,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: ``
+  description: ``,
   aboutItems: [
     {label: 'Location', text: 'Pekanbaru, Riau.', Icon: MapIcon},
     {label: 'Age', text: '25', Icon: CalendarIcon},
