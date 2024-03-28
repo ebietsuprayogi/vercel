@@ -247,42 +247,36 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'July 2017 - Oct 2021',
+    location: 'Politeknik Caltex Riau',
+    title: 'Bachelor of Science in Computer Science',
+    content: 
+    <p>During my time at school, I gained a comprehensive understanding of programming, despite having no prior background in it. Initially, concepts such as MVC architecture and various frameworks were entirely new to me, as was the process of running projects locally. However, my experience at the university has been transformative, as I immersed myself in learning these fundamentals.</p>
+    <p>In addition to academic knowledge, I actively engaged in extracurricular activities to further enhance my skills. As a member of the Information Systems Student Association, I participated in various activities and events, gaining valuable experience in project management and teamwork. Furthermore, my involvement in the Computer Security Incident Response Team (CSIRT) as the coordinator for development and training allowed me to deepen my understanding of cybersecurity and hone my leadership abilities.</p>
+    <p>Throughout my academic journey, I have developed several applications that I believe could be beneficial to relevant institutions. These experiences have not only equipped me with technical skills but also fostered a strong sense of responsibility and dedication to continuous learning and improvement.</p>
+    ,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Feb 2022 - July 2022',
+    location: 'Bank Riau Kepri',
+    title: 'Software Developer Intern',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+    <p>
+    During my internship at Bank Riau Kepri, I had the opportunity to work on the E-Registration project. This project aimed to streamline the attendance tracking system for bank employees using QR code technology. My responsibilities included developing and implementing features such as QR code generation and scanning, activity registration, and email notifications.
+    <br/>
+    Through this experience, I gained hands-on experience in full-stack web development, particularly in frontend and backend technologies. I collaborated with senior developers to understand the project requirements, design system architecture, and write clean and efficient code.
+    <br/>
+    Additionally, I had the chance to contribute to the integration of the E-Registration system with the mobile application, ensuring seamless connectivity and user experience across platforms. This involved working with APIs and understanding mobile development principles.
+    <br/>
+    Furthermore, I participated in regular meetings with project stakeholders to discuss progress, gather feedback, and address any issues or challenges encountered during the development process. This allowed me to enhance my communication and problem-solving skills in a professional setting.
+    <br/>
+    Overall, my internship at Bank Riau Kepri provided me with invaluable real-world experience and further solidified my passion for software development and technology.
+    </p>
     ),
-  },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
+    },
 ];
 
 /**
