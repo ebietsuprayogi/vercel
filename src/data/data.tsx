@@ -17,8 +17,6 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
-  ContactSection,
-  ContactType,
   Hero,
   HomepageMeta,
   PortfolioItem,
