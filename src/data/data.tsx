@@ -294,23 +294,18 @@ export const contact: ContactSection = {
   description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
   items: [
     {
-      type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
-    },
-    {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Pekanbaru, Indonesia',
+      href: 'https://www.google.com/maps/@0.5139623,101.3587749,12z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
+      text: '@ebietsy',
       href: 'https://www.instagram.com/ebietsy',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'ebietsuprayogi',
       href: 'https://github.com/ebietsuprayogi',
     },
   ],
@@ -323,5 +318,5 @@ export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ebietsuprayogi'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ebietsy'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/ebiet_sy'},
 ];
