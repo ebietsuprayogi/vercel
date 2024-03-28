@@ -250,13 +250,22 @@ export const education: TimelineItem[] = [
     date: 'July 2017 - Oct 2021',
     location: 'Politeknik Caltex Riau',
     title: 'Bachelor of Science in Computer Science',
-    content: 
-    <p>During my time at school, I gained a comprehensive understanding of programming, despite having no prior background in it. Initially, concepts such as MVC architecture and various frameworks were entirely new to me, as was the process of running projects locally. However, my experience at the university has been transformative, as I immersed myself in learning these fundamentals.</p>
-    <p>In addition to academic knowledge, I actively engaged in extracurricular activities to further enhance my skills. As a member of the Information Systems Student Association, I participated in various activities and events, gaining valuable experience in project management and teamwork. Furthermore, my involvement in the Computer Security Incident Response Team (CSIRT) as the coordinator for development and training allowed me to deepen my understanding of cybersecurity and hone my leadership abilities.</p>
-    <p>Throughout my academic journey, I have developed several applications that I believe could be beneficial to relevant institutions. These experiences have not only equipped me with technical skills but also fostered a strong sense of responsibility and dedication to continuous learning and improvement.</p>
-    ,
+    content: (
+      <div>
+        <p>
+          During my time at school, I gained a comprehensive understanding of programming, despite having no prior background in it. Initially, concepts such as MVC architecture and various frameworks were entirely new to me, as was the process of running projects locally. However, my experience at the university has been transformative, as I immersed myself in learning these fundamentals.
+        </p>
+        <p>
+          In addition to academic knowledge, I actively engaged in extracurricular activities to further enhance my skills. As a member of the Information Systems Student Association, I participated in various activities and events, gaining valuable experience in project management and teamwork. Furthermore, my involvement in the Computer Security Incident Response Team (CSIRT) as the coordinator for development and training allowed me to deepen my understanding of cybersecurity and hone my leadership abilities.
+        </p>
+        <p>
+          Throughout my academic journey, I have developed several applications that I believe could be beneficial to relevant institutions. These experiences have not only equipped me with technical skills but also fostered a strong sense of responsibility and dedication to continuous learning and improvement.
+        </p>
+      </div>
+    ),
   },
 ];
+
 
 export const experience: TimelineItem[] = [
   {
