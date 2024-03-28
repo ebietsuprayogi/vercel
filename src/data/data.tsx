@@ -41,7 +41,6 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
-  Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
@@ -278,32 +277,6 @@ export const experience: TimelineItem[] = [
     ),
     },
 ];
-
-/**
- * Contact section
- */
-
-export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is how you can reach me.',
-  items: [
-    {
-      type: ContactType.Location,
-      text: 'Pekanbaru, Indonesia',
-      href: 'https://www.google.com/maps/@0.5139623,101.3587749,12z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@ebietsy',
-      href: 'https://www.instagram.com/ebietsy',
-    },
-    {
-      type: ContactType.Github,
-      text: 'ebietsuprayogi',
-      href: 'https://github.com/ebietsuprayogi',
-    },
-  ],
-};
 
 /**
  * Social items
