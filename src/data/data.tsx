@@ -13,6 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
