@@ -20,7 +20,6 @@ import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -99,7 +98,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Pekanbaru, Riau.', Icon: MapIcon},
     {label: 'Age', text: '25', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indonesia', Icon: FlagIcon},
-    {label: 'Interests', text: 'Animals, Science, Technology, Gaming, Food, Travel, & Music', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Programming, Gaming, Food, Travel, & Music', Icon: SparklesIcon},
     {label: 'Study', text: 'Politeknik Caltex Riau', Icon: AcademicCapIcon},
     {label: 'Employment', text: '-', Icon: BuildingOffice2Icon},
   ],
@@ -290,30 +289,6 @@ export const experience: TimelineItem[] = [
 ];
 
 /**
- * Testimonial section
- */
-export const testimonial: TestimonialSection = {
-  imageSrc: testimonialImage,
-  testimonials: [
-    {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-    },
-  ],
-};
-
-/**
  * Contact section
  */
 
@@ -334,12 +309,12 @@ export const contact: ContactSection = {
     {
       type: ContactType.Instagram,
       text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      href: 'https://www.instagram.com/ebietsy',
     },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/ebietsuprayogi',
     },
   ],
 };
@@ -348,9 +323,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/ebietsuprayogi'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/ebietsy'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
