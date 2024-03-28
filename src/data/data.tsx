@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Ebiet Suprayogi Portofolio',
+  description: 'React Template'
 };
 
 /**
@@ -69,14 +69,14 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Ebiet Suprayogi.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       My name is Ebiet Suprayogi, I'm currently unemployed, hailing from <strong className="text-stone-100">Pekanbaru, Indonesia.</strong> Graduated from Politeknik Caltex Riau with a degree in Computer Engineering.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Iand nowadays, to fill my spare time, I sometimes play games such as <strong className="text-stone-100">Apex Legends</strong> and explore <strong className="text-stone-100">CodeIginiter 3, React.js & Express.js frameworks.</strong>
+      Alongside my passion for programming 💻, I enjoy indulging in delicious food 🍚 and diving into the world of gaming 🎮.
       </p>
     </>
   ),
@@ -100,16 +100,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: ``
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Pekanbaru, Riau.', Icon: MapIcon},
+    {label: 'Age', text: '25', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Indonesia', Icon: FlagIcon},
+    {label: 'Interests', text: 'Animals, Science, Technology, Gaming, Food, Travel, & Music', Icon: SparklesIcon},
+    {label: 'Study', text: 'Politeknik Caltex Riau', Icon: AcademicCapIcon},
+    {label: 'Employment', text: '-', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -121,16 +119,12 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Indonesia',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'English',
+        level: 5,
       },
     ],
   },
@@ -138,15 +132,7 @@ export const skills: SkillGroup[] = [
     name: 'Frontend development',
     skills: [
       {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
+        name: 'React JS',
         level: 6,
       },
     ],
@@ -155,33 +141,76 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
-        level: 8,
+        name: 'PHP Native',
+        level: 9,
       },
       {
-        name: 'Rust',
+        name: 'CodeIgninter(CI3)',
+        level: 9,
+      },
+      {
+        name: 'Express JS',
         level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Database development',
     skills: [
       {
-        name: 'React Native',
+        name: 'MySQL',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'MongoDB',
+        level: 5,
       },
       {
-        name: 'Swift',
+        name: 'IIS',
         level: 3,
+      },
+    ],
+  },
+  {
+    name: 'Tools & Technologies',
+    skills: [
+      {
+        name: 'Git',
+        level: 9,
+      },
+      {
+        name: 'Nginx',
+        level: 5,
+      },
+      {
+        name: 'Docker',
+        level: 3,
+      },
+    ],
+  },
+  {
+    name: 'Workflow',
+    skills: [
+      {
+        name: 'Trello',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Tools & Technologies',
+    skills: [
+      {
+        name: 'Git',
+        level: 7,
+      },
+      {
+        name: 'Nginx',
+        level: 8,
+      },
+      {
+        name: 'Docker',
+        level: 5,
       },
     ],
   },
@@ -192,70 +221,34 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'HIMASISTIFO Website',
+    description: 'The project involves the development of a website for the Information Systems Student Association of Politeknik Caltex Riau. This website serves as an informational platform for the association, providing details about its activities and upcoming events. It includes features such as committee registration and member profiles. Each member, including the governors, has a dedicated profile page where they can input information such as upcoming activities, documentation, and committee registration details. The governors are designated as super administrators, granting them special privileges for managing the website. This website aims to streamline communication within the association, enhance member engagement, and centralize the management of association activities and initiatives.',
+    url: '#',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'E-Registrasi',
+    description: 'The E-Registration system for Bank Riau Kepri serves as a comprehensive solution for recording the attendance of all bank employees using QR code technology. Additionally, it allows the addition of new activities and sends notifications to employees via email. The system is integrated with an API that enables connectivity to the mobile application, making the website an integral part of the overall application ecosystem. Through this system, the bank aims to streamline attendance tracking, facilitate communication with employees through email notifications, and provide a seamless experience across web and mobile platforms.',
+    url: '#',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'SIAKMS',
+    description: 'The Academic Information and Student Monitoring System, based on a website platform, serves as my final project aimed at providing comprehensive information to students, teachers, administrative staff, and the student body. Students have access to view their grades, provide comments, check any disciplinary actions taken against them, and register for extracurricular activities. Teachers can input grades, oversee extracurricular activities, assign disciplinary actions, and schedule meetings with parents or guardians of students as needed. Administrative staff are responsible for managing users, types of student achievements, and extracurricular data, including assigning teachers as supervisors. The student body can access all extracurricular and achievement data. This system aims to enhance communication and transparency within the educational institution, streamline administrative processes, and empower stakeholders with valuable insights into student performance and activities.',
+    url: '#',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Aspirasi',
+    description: 'The Aspiration project aims to provide a platform for students and the surrounding community of Politeknik Caltex Riau to voice their aspirations, provide information, and lodge complaints. This application features multiple user levels, with the initial user being able to submit aspirations, information, or complaints to Politeknik Caltex Riau. These submissions are then reviewed by administrators. If accepted, they are escalated to the relevant executive level. Users receive email notifications regarding the status of their reports. This system fosters transparency, accountability, and engagement between the institution and its stakeholders, ultimately contributing to a more responsive and inclusive environment.',
+    url: '#',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Edu Kids(Android & Website',
+    description: 'Edukids is a program designed to facilitate the learning process for children through various multimedia formats, including audio, video, and written materials. The system incorporates interactive exercises utilizing images to engage children in learning activities, ensuring an enjoyable and stimulating learning experience. Additionally, the program offers a consultation feature, allowing parents to easily communicate with teachers or seek advice regarding their childs education. This comprehensive approach not only supports childrens learning but also provides parents with satisfaction and peace of mind knowing they can actively participate in their childs educational journey.',
+    url: '#',
     image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
