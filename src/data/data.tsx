@@ -73,14 +73,10 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+      My name is Ebiet Suprayogi, I'm currently unemployed, hailing from <strong className="text-stone-100">Pekanbaru, Indonesia.</strong> Graduated from Politeknik Caltex Riau with a degree in Computer Engineering.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        Iand nowadays, to fill my spare time, I sometimes play games such as <strong className="text-stone-100">Apex Legends</strong> and explore <strong className="text-stone-100">CodeIginiter 3, React.js & Express.js frameworks.</strong>
       </p>
     </>
   ),
